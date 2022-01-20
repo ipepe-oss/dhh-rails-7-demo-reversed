@@ -23,3 +23,5 @@ This is code repository that was reversed from the original DHH Rails 7 Demo vid
    * `rails db:migrate`
  * Chapter 5: Comments Action Mailer (15:00-25:00)
    * `rails g mailer comments submitted`
+ * Chapter 6: Turbo streaming (25:00-27:30)
+ * Chapter 7: Tests
