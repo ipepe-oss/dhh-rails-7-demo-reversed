@@ -21,3 +21,5 @@ This is code repository that was reversed from the original DHH Rails 7 Demo vid
  * Chapter 4: Comments model (13:50-15:00)
    * `rails generate resource comment post:references content:text`
    * `rails db:migrate`
+ * Chapter 5: Comments Action Mailer (15:00-25:00)
+   * `rails g mailer comments submitted`
