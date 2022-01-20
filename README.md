@@ -24,4 +24,17 @@ This is code repository that was reversed from the original DHH Rails 7 Demo vid
  * Chapter 5: Comments Action Mailer (15:00-25:00)
    * `rails g mailer comments submitted`
  * Chapter 6: Turbo streaming (25:00-27:30)
- * Chapter 7: Tests
+ * Chapter 7: Tests (27:30-29:30)
+   * `rails test`
+ * Chapter 8: Change database (29:30-30:00)
+   * `rails db:system:change --to=postgresql`
+   * `bundle install`
+ * Chapter 9: Deploy to Heroku (30:00-34:14)
+   * `git add .`
+   * `bundle lock --add-platform x86_64-linux`
+   * `git commit -m "First"`
+   * `heroku create`
+   * `git push heroku main`
+   * `heroku run rake db:migrate`
+   * `heroku addons:create heroku-redis:hobby-dev -a mighty-tundra-27310`
+   
